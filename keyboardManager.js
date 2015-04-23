@@ -5,18 +5,18 @@ var KeyboardManager = function()
 		switch (e.keyCode)
 		{
 			case 37:
-				if (sceneManager.currentScene == "game")
-				{
-					sceneManager.keyLeft = true;
-				}
-				break;		
+			if (sceneManager.currentScene == "game")
+			{
+				sceneManager.keyLeft = true;
+			}
+			break;		
 				
 			case 39:
-				if (sceneManager.currentScene == "game")
-				{
-					sceneManager.keyRight = true;
-				}
-				break;					
+			if (sceneManager.currentScene == "game")
+			{
+				sceneManager.keyRight = true;
+			}
+			break;					
 		}
 	}
 	
@@ -25,18 +25,18 @@ var KeyboardManager = function()
 		switch (e.keyCode)
 		{				
 			case 37:
-				if (sceneManager.currentScene == "game")
-				{
-					sceneManager.keyLeft = false;
-				}
-				break;					
+			if (sceneManager.currentScene == "game")
+			{
+				sceneManager.keyLeft = false;
+			}
+			break;					
 				
 			case 39:
-				if (sceneManager.currentScene == "game")
-				{
-					sceneManager.keyRight = false;
-				}
-				break;						
+			if (sceneManager.currentScene == "game")
+			{
+				sceneManager.keyRight = false;
+			}
+			break;						
 		}		
 	}
 }
